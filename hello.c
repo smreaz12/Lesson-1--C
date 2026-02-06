@@ -66,14 +66,24 @@ int main(){
 
 
     //perimeter of rectangle
-    int Length,Width;
-    printf("Enter Length: ");
-    scanf("%d",& Length);
+    // int Length,Width;
+    // printf("Enter Length: ");
+    // scanf("%d",& Length);
 
-    printf("Enter Width: ");
-    scanf("%d",& Width);
+    // printf("Enter Width: ");
+    // scanf("%d",& Width);
 
-    printf("Perimeter of rectangle is: %d", 2*(Length+Width));
+    // printf("Perimeter of rectangle is: %d", 2*(Length+Width));
+    // return 0;
+
+
+
+    //cube//
+    int n;
+    printf("Enter the number: ");
+    scanf("%d",&n);
+
+    printf("Cube is: %d", n*n*n);
     return 0;
 }
 
