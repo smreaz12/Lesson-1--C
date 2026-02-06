@@ -49,10 +49,19 @@ int main(){
 
 
     //write a program to calculate area of a square. (side is given : 5)
-    int side;
-    printf("Enter the side: ");
-    scanf("%d",& side);
-    printf("Side square is: %d", side*side);
+    // int side;
+    // printf("Enter the side: ");
+    // scanf("%d",& side);
+    // printf("Side square is: %d", side*side);
+    // return 0;
+
+
+
+    //write a program to calculate area of a circle. (radius is given: 5.5)
+    float radius;
+    printf("Enter the radius: ");
+    scanf("%f",& radius);
+    printf("circle radius is: %f",3.1416*radius*radius);
     return 0;
 }
 
