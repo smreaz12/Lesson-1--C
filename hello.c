@@ -58,10 +58,22 @@ int main(){
 
 
     //write a program to calculate area of a circle. (radius is given: 5.5)
-    float radius;
-    printf("Enter the radius: ");
-    scanf("%f",& radius);
-    printf("circle radius is: %f",3.1416*radius*radius);
+    // float radius;
+    // printf("Enter the radius: ");
+    // scanf("%f",& radius);
+    // printf("circle radius is: %f",3.1416*radius*radius);
+    // return 0;
+
+
+    //perimeter of rectangle
+    int Length,Width;
+    printf("Enter Length: ");
+    scanf("%d",& Length);
+
+    printf("Enter Width: ");
+    scanf("%d",& Width);
+
+    printf("Perimeter of rectangle is: %d", 2*(Length+Width));
     return 0;
 }
 
