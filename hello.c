@@ -96,12 +96,26 @@ int main(){
     // printf("Celsius is: %2f", celsius);
     // return 0;
 
-    //kilometer to mile
-    int km;
-    printf("Enter the KM: ");
-    scanf("%d", & km);
 
-    printf("Mile is %.2f", km*0.621371);
+
+    //kilometer to mile
+    // int km;
+    // printf("Enter the KM: ");
+    // scanf("%d", & km);
+
+    // printf("Mile is %.2f", km*0.621371);
+    // return 0;
+
+
+
+
+    //mile to kilometer
+    int mile;
+    printf("Enter mile value: ");
+    scanf("%d", & mile);
+
+    printf("Kilometer is: %.2f", mile*1.60934);
     return 0;
+
 }
 
