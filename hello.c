@@ -88,12 +88,20 @@ int main(){
 
 
     //Fahrenheit to celsius
-    float fahrenheit;
-    printf("Enter Fahrenheit value: ");
-    scanf("%f", & fahrenheit);
+    // float fahrenheit;
+    // printf("Enter Fahrenheit value: ");
+    // scanf("%f", & fahrenheit);
 
-    float celsius = (5.0/9.0)*(fahrenheit - 32);
-    printf("Celsius is: %2f", celsius);
+    // float celsius = (5.0/9.0)*(fahrenheit - 32);
+    // printf("Celsius is: %2f", celsius);
+    // return 0;
+
+    //kilometer to mile
+    int km;
+    printf("Enter the KM: ");
+    scanf("%d", & km);
+
+    printf("Mile is %.2f", km*0.621371);
     return 0;
 }
 
