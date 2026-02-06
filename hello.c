@@ -36,15 +36,23 @@ int main(){
     // return 0;
 
 
-    
-    int a,b;
-    printf("Enter number a: ");
-    scanf("%d",&a);
 
-    printf("Enter number b: ");
-    scanf("%d",&b);
+    // int a,b;
+    // printf("Enter number a: ");
+    // scanf("%d",&a);
 
-    printf("Sum is: %d",a + b);
+    // printf("Enter number b: ");
+    // scanf("%d",&b);
+
+    // printf("Sum is: %d",a + b);
+    // return 0;
+
+
+    //write a program to calculate area of a square. (side is given : 5)
+    int side;
+    printf("Enter the side: ");
+    scanf("%d",& side);
+    printf("Side square is: %d", side*side);
     return 0;
 }
 
