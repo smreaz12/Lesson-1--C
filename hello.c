@@ -22,6 +22,21 @@ int main(){
     // printf("Your age is: %d",age);
     // return 0;
 
+
+
+    // int a,b;
+    // printf("Enter number a: ");
+    // scanf("%d",&a);
+
+    // printf("Enter number b: ");
+    // scanf("%d",&b);
+
+    // int sum = a+b;
+    // printf("Sum is: %d",sum);
+    // return 0;
+
+
+    
     int a,b;
     printf("Enter number a: ");
     scanf("%d",&a);
@@ -29,8 +44,7 @@ int main(){
     printf("Enter number b: ");
     scanf("%d",&b);
 
-    int sum = a+b;
-    printf("Sum is: %d",sum);
+    printf("Sum is: %d",a + b);
     return 0;
 }
 
