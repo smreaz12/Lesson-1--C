@@ -12,8 +12,14 @@ int main(){
     // printf("pi value is: %f",pi);
     // return 0;
 
-    char star = '*';
-    printf("star is: %c",star);
+    // char star = '*';
+    // printf("star is: %c",star);
+    // return 0;
+
+    int age;
+    printf("Enter your age: ");
+    scanf("%d",&age);
+    printf("Your age is: %d",age);
     return 0;
 }
 
