@@ -79,11 +79,21 @@ int main(){
 
 
     //cube//
-    int n;
-    printf("Enter the number: ");
-    scanf("%d",&n);
+    // int n;
+    // printf("Enter the number: ");
+    // scanf("%d",&n);
 
-    printf("Cube is: %d", n*n*n);
+    // printf("Cube is: %d", n*n*n);
+    // return 0;
+
+
+    //Fahrenheit to celsius
+    float fahrenheit;
+    printf("Enter Fahrenheit value: ");
+    scanf("%f", & fahrenheit);
+
+    float celsius = (5.0/9.0)*(fahrenheit - 32);
+    printf("Celsius is: %2f", celsius);
     return 0;
 }
 
