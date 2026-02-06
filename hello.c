@@ -16,10 +16,21 @@ int main(){
     // printf("star is: %c",star);
     // return 0;
 
-    int age;
-    printf("Enter your age: ");
-    scanf("%d",&age);
-    printf("Your age is: %d",age);
+    // int age;
+    // printf("Enter your age: ");
+    // scanf("%d",&age);
+    // printf("Your age is: %d",age);
+    // return 0;
+
+    int a,b;
+    printf("Enter number a: ");
+    scanf("%d",&a);
+
+    printf("Enter number b: ");
+    scanf("%d",&b);
+
+    int sum = a+b;
+    printf("Sum is: %d",sum);
     return 0;
 }
 
