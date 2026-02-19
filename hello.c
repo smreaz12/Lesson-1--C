@@ -110,11 +110,28 @@ int main(){
 
 
     //mile to kilometer
-    int mile;
-    printf("Enter mile value: ");
-    scanf("%d", & mile);
+    // double mile;
+    // printf("Enter mile value: ");
+    // scanf("%lf", & mile);
 
-    printf("Kilometer is: %.2f", mile*1.60934);
+    // printf("Kilometer is: %.2lf", mile*1.60934);
+    // return 0;
+
+
+
+
+    //sum 3 Number
+    double a,b,c;
+    printf("Enter 1st Number: ");
+    scanf("%lf",&a);
+
+    printf("Enter 2nd Number: ");
+    scanf("%lf",&b);
+
+    printf("Enter 3rd Number: ");
+    scanf("%lf",&c);
+
+    printf("The sum is %.3f\n",a+b+c);
     return 0;
 
 }
